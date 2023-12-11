@@ -1,5 +1,5 @@
 html, body{
-    background: #E64C3C;
+    background:#bd0003;
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
@@ -51,6 +51,12 @@ header div.cabeçalho p{
     font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
 
 nav h1{
     padding-top: 40px;
@@ -80,35 +86,185 @@ nav h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 89vh;
+    width: 430px;
+    height: 120vh;  
+   
+
+    /* 89vh */
+    
 
     
 
 
 }
 .card-left{
-    margin: auto;
+    
     width: 500px;
     height: 700px;
     background-color: rgb(94, 73, 55);
     border-radius: 10px;
     border: 5px solid rgb(73, 41, 41);
     
+    display: flex;
+    flex-direction: column;
+    
+    
 
+}
+div.name-left {
+    background-color: rgb(73, 41, 41);
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 5px 0px 5px;
+    border-radius: 5px;
+
+
+}
+
+.name-left p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+.card-left div.hero-left{
+    width: 420px;
+    height: 340px;
+    background-color: rgba(245, 245, 220, 0.466);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+}
+
+.desc-left{
+    font-size: 20px;
+    list-style: none;
+    width: 420px;
+    height: 340px;
+    background-color: rgba(73, 41, 41, 0.729) ;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
 }
 
 .card-right{
 
-    margin: auto;
+    
     width: 500px;
     height: 700px;
     background-color: rgb(94, 73, 55);
     border-radius: 10px;
     border: 5px solid rgb(73, 41, 41);
     
+    display: flex;
+    flex-direction: column;
+    
+}
+div.name-right {
+    background-color: rgb(73, 41, 41);
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 5px 0px 5px;
+    border-radius: 5px;
+
+}
+.name-right p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+.card-right div.hero-right{
+    width: 420px;
+    height: 340px;
+    background-color: rgba(245, 245, 220, 0.466);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+   
+}
+
+.desc-right{
+    font-size: 20px;
+    list-style: none;
+    width: 420px;
+    height: 340px;
+    background-color: rgba(73, 41, 41, 0.729) ;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
 }
 
 .versus{
-    margin: 502px auto;
+    margin: 502px 50px;
+    height: 600px;
+    
+}
+
+.versus h1{
+    display: flex;
+    justify-content: center;
+    color: #A3AFAF;
+    text-shadow: 2px solid #000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+.img{
+
+    width: 420px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+h1{
+
+}
+
+ul li{
+    color: white;
+    list-style: none;
+    font-weight: bold;
+
+}
+.generator{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 200px;
+    height: 300px;
+
+}
+
+#contentmap{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+
+}
+
+#imagemap{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 5px solid rgb(73, 41, 41);
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(245, 245, 220, 0.466);
+    margin-bottom: 20px;
+    
+}
+
+#btngo2{
+    padding: 5px 8px;
+    color: whitesmoke;
+    background-color:  rgb(73, 41, 41);
 }
